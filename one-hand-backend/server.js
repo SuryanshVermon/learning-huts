@@ -16,7 +16,7 @@ const db = mongoose.connection;
 db.on("error", ()=> console.log("error"));
 db.once("open", ()=> console.log("connected"));
 
-const appPort = process.env.App_PORT || APP_PORT
+const appPort = process.env.PORT || 5000
 
 app.use(express.urlencoded({extended: true}))
 app.use(express.json());
