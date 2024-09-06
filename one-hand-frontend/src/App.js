@@ -9,8 +9,8 @@ import { Home } from "./pages/Home";
 import { Footer } from "./components/Footer";
 import Ngo from "./pages/Ngo";
 import axiosInstance from "./api/axios";
-import About from "./pages/about-us";
-import Event from "./pages/events";
+import About from "./pages/About";
+import Event from "./pages/Events";
 
 function App() {
   axiosInstance
