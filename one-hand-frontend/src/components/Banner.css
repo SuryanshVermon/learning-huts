@@ -1,0 +1,52 @@
+
+.banner-img {
+    max-width: 400px;
+    height: 25rem;
+    padding: 0 15px;
+    object-fit: cover;
+  }
+  
+  .banner-img:last-of-type {
+    padding-left: 0;
+  }
+   
+  .reels-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .reel-item {
+    width: 320px;
+    /* height: 400px; */
+  }
+  
+  .inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 25rem;
+  }
+  
+  .wrapper {
+    position: absolute;
+    display: flex;
+  }
+  
+  .banner-section {
+    display: flex;
+    animation: swipe var(--speed) linear infinite backwards;
+  }
+  
+  @keyframes swipe {
+    0% {
+      transform: translate(0);
+    }
+  
+    100% {
+      transform: translate(-100%);
+    }
+  }
+  

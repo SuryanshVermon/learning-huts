@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text, Button } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom'
-import bloodTest from "../utils/img/blood.svg"
+import bloodTest from "../utils/img/blood.jpg"
 
 const Mission = () => {
     const navigate = useNavigate()
@@ -12,11 +12,11 @@ const Mission = () => {
 
         <div className="row">
             <div className="col py-4 my-auto" style={{paddingLeft: "2rem"}}>
-                <div className="h1 fw-bold" style={{color:"#082366", fontSize:"2.6rem"}}>Find Donors Near You Immediately!</div>
-                <Text py={4}>ONE HAND has a large community of donors. Find donars near you at the click of a button!</Text>
+                <div className="h1 fw-bold" style={{color:"#082366", fontSize:"2.6rem"}}>Be Part of the Change!</div>
+                <Text py={4}>Join the Learning Huts Foundation, powered by passionate volunteers, and be a catalyst for change—empowering minds, shaping a brighter future, and transforming lives through the gift of education!</Text>
                 <div className="mt-4">
         <Button colorScheme="green" color="white" size="lg" onClick={()=> navigate("/donar")}>
-                        Search Donars
+                        Join Campaign
         </Button>
         </div>
             </div>

@@ -1,37 +1,37 @@
 export const eventData = [
   {
     id: 1,
-    eventName: "Debate- Samvad 1.0",
+    eventName: "Learning Huts is registered Officially",
     description:
-      "Varied debates on crucial topics showcased diverse perspectives eloquently.",
-    date: "August 06 2023",
+      "The mission to empower, educate, and inspire the new INDIA with effort and dedication begins",
+    date: "August 06 20 - Present",
   },
   {
     id: 2,
-    eventName: "MONTHLY QUIZ",
+    eventName: " 🎓 Education for Slum Students",
     description:
-      "The CSS Club's Monthly Quiz series, supervised by the Social Media Team, focused on current events, aiding civil service preparation by testing knowledge and awareness.",
-    date: "October 02 2023 - Present",
+      "Breaking the cycle of poverty by providing knowledge and opportunities to those who need it most.",
+    date: "October 02 2020 - Present",
   },
   {
     id: 3,
-    eventName: "ARTICLE WRITING COMPETITION",
+    eventName: "🏭 Fabrikshala",
     description:
-      "The CSS Club article writing competition on caste-based reservations encourages critical thinking, research, communication skills, empathy, awareness, and self-expression.",
-    date: "October 08 2023",
+      "An innovative program that bridges the gap between skill development and employment, creating a sustainable future",
+    date: "October 08 2021 - Present",
   },
   {
     id: 4,
-    eventName: "Group discussion-MANTHAN1.0",
+    eventName: "🌿 Eco Habits",
     description:
-      "Two topics: 'India vs Bharat and Legalisation of Same Sex Marriage in India sparked engaging discussions, showcasing persuasive and critical thinking skills'.",
-    date: "November 04 2023",
+      " Promoting environmentally responsible living and creating a new generation of eco-conscious citizens.",
+    date: "26 September 2021 - Present",
   },
   {
     id: 5,
-    eventName: "WEEKEND QUIZ",
+    eventName: "💚 Green Your Periods",
     description:
-      "The CSS Club's Weekend Quiz, led by the Social Media Team, fosters development through diverse topics, engaging challenges, and community interaction.",
-    date: "Every Sunday",
+      " A revolutionary initiative for eco-friendly menstrual hygiene management.",
+    date: " 23 Febraury 2020 - Present",
   },
 ];

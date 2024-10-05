@@ -1,0 +1,58 @@
+/* EcoHabits.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .collage-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 15px;
+    padding: 20px;
+    max-width: 100vw;
+    margin: 0 auto;
+  }
+  
+  .collage-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .collage-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .collage-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-text {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  h1, h2 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-align: center;
+    color: #333;
+  }
+  .reels-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .reel-item {
+    width: 320px;
+    /* height: 400px; */
+  }

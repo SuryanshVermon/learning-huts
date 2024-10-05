@@ -9,7 +9,7 @@ export default function Event() {
   
     return (
     <div className="pb-6 bg-cover bg-zinc-200" style={{ backgroundImage: "url(" + bgImage + ")" }}>
-      <div className="w-full p-24 text-center text-white"
+      <div className="flex flex-col items-center w-full p-24 text-center text-white"
         style={{ background: "#000" }}>
         <h4 className="text-3xl sm:text-5xl font-bold">#Activities</h4>
         <p>DEDICATION. DISCIPLINE. DETERMINATION.</p>

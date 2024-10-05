@@ -5,11 +5,11 @@ export const DonationType = ({formLabel, onSelect, data}) => {
     <>
             <FormLabel>{formLabel}</FormLabel>
                 <Select placeholder='Select Donation Type' onChange={onSelect} name="donationType" value={data}>
-                    <option value="Blood">Blood</option>
-                    <option value="Pads">Pads</option>
-                    <option value="Oxygen Cylinder">Oxygen Cylinder</option>
-                    <option value="Medicines">Medicines</option>
-                    <option value="Others">Others</option>
+                    <option value="Blood">Bag And bottle</option>
+                    <option value="Pads">Books</option>
+                    <option value="Oxygen Cylinder">Stationary</option>
+                    <option value="Medicines">Pads</option>
+                    <option value="Others">Financial Help</option>
                 </Select>
     </>
   )
