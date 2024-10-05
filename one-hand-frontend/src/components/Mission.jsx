@@ -1,32 +1,46 @@
-import React from 'react'
-import { Text, Button } from '@chakra-ui/react'
-import { useNavigate } from 'react-router-dom'
-import bloodTest from "../utils/img/blood.jpg"
+import React from "react";
+import { Text, Button, Box, Flex, Image, Heading } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
+import bloodTest from "../utils/img/blood.jpg";
 
 const Mission = () => {
-    const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
-    <div className='container-fluid w-100 p-4'>
-        {/* <h3 className="h5 text-center fw-bold p-2" style={{color: "#07CC7F"}}>What We Are Doing</h3>
-        <h3 className="text-center fw-bold" style={{color:"#082366", fontSize:"3rem"}}>We Are In a Mission To<br/> Help The Helpless</h3> */}
+    <Box className="container-fluid" w="100%" p={4}>
+      <Flex direction={["column", "column", "row"]} align="center" justify="space-between">
+        <Box flex="1" py={4} pl={{ base: 0, md: 4 }}>
+          <Heading
+            as="h1"
+            size="xl"
+            fontWeight="bold"
+            color="#082366"
+            mb={4}
+            textAlign={{ base: "center", md: "left" }}  // Center on base, left on medium and up
+          >
+            Be Part of the Change!
+          </Heading>
+          <Text py={4} textAlign={{ base: "center", md: "left" }}>
+            Join the Learning Huts Foundation, powered by passionate volunteers,
+            and be a catalyst for change—empowering minds, shaping a brighter
+            future, and transforming lives through the gift of education!
+          </Text>
+          <Flex justify={{ base: "center", md: "flex-start" }} mt={4}>
+            <Button
+              colorScheme="green"
+              size="lg"
+              onClick={() => navigate("/campaign/educating_in_slums")}
+            >
+              Join Campaign
+            </Button>
+          </Flex>
+        </Box>
+        <Box flex="1" p={4} maxW="600px" alignSelf="center">
+          <Image src={bloodTest} alt="banner" borderRadius="md" boxShadow="lg" />
+        </Box>
+      </Flex>
+      <Box as="hr" my={4} />
+    </Box>
+  );
+};
 
-        <div className="row">
-            <div className="col py-4 my-auto" style={{paddingLeft: "2rem"}}>
-                <div className="h1 fw-bold" style={{color:"#082366", fontSize:"2.6rem"}}>Be Part of the Change!</div>
-                <Text py={4}>Join the Learning Huts Foundation, powered by passionate volunteers, and be a catalyst for change—empowering minds, shaping a brighter future, and transforming lives through the gift of education!</Text>
-                <div className="mt-4">
-        <Button colorScheme="green" color="white" size="lg" onClick={()=> navigate("/donar")}>
-                        Join Campaign
-        </Button>
-        </div>
-            </div>
-            <div className="col p-4">
-            <img src={bloodTest} className="img-fluid" alt="banner"/>
-            </div>
-        </div>
-        <hr/>
-    </div>
-  )
-}
-
-export default Mission
+export default Mission;

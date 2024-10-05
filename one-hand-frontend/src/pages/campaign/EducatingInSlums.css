@@ -58,7 +58,9 @@ body {
     padding: 30px 20px;
     text-align: center;
   }
-  
+  .video-item iframe {
+    width: 100%; /* Responsive video width */
+  }
   .video-container {
     display: flex;
     justify-content: center;
@@ -76,4 +78,12 @@ body {
     font-size: 1.2rem;
     color: #555;
   }
+  @media (max-width: 768px) {
+    .p-24 {
+      padding: 12px;
+    }
   
+    .text-3xl {
+      font-size: 24px; /* Smaller font size on smaller screens */
+    }
+  }

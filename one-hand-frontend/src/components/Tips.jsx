@@ -14,7 +14,7 @@ const images = [
   "https://res.cloudinary.com/dk5ft3vi3/image/upload/v1727692252/adf01058-4c7a-4bff-9880-17d07b57d58c_csaikt.jpg",
   "https://res.cloudinary.com/dk5ft3vi3/image/upload/v1727716096/Screenshot_2024-09-30_at_2.51.35_PM_hxgiuy.png",
 ].map((image) => ({
-  id: crypto.randomUUID(),
+  id: Math.random(),
   image,
 }));
 

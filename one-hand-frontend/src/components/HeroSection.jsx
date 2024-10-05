@@ -9,15 +9,16 @@ export const HeroSection = () => {
       <div className="position-relative">
         <img
           src={bannerImg}
-          className="img-fluid w-full"
+          className="img-fluid w-full h-[90vh]"
           alt="banner"
           style={{
+            objectFit: "cover",
             filter: "brightness(50%)",
           }}
         />
 
         <div className="position-absolute top-50 start-50 translate-middle mx-auto">
-          <h1 className="h1 text-center fw-bold text-warning">Learning Huts</h1>
+          <h1 className="h1 text-6xl text-center fw-bold text-warning">Learning Huts</h1>
           <h2 className="h2 fw-bold py-3 text-center text-white">
             Educating for the better world
           </h2>
@@ -32,7 +33,7 @@ export const HeroSection = () => {
               colorScheme="green"
               color="white"
               size="lg"
-              onClick={() => navigate("/donar")}
+              onClick={() => navigate("/campaign/fabrikshala")}
             >
               Explore
             </Button>

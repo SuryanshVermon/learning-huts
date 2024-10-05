@@ -1,42 +1,41 @@
 .about-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 50px 100px;
-  /* border-bottom: 1px solid #000; */
+  justify-content: space-between; /* Keeps space between items */
+  align-items: center; /* Vertically center items */
+  margin: 50px 100px; /* Adjust margin as per design */
+  /* Optionally add back the border if needed, perhaps with a lighter color */
 }
 
 .about-image img {
-  width: 400px;
-  height: auto;
-  border-radius: 10px;
+  width: 400px; /* Specific width might be too large for smaller devices */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
 }
 
 .about-text {
-  flex: 1;
-  padding: 20px;
-  margin: 80px;
-  font-weight: 600;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  color: #333;
-  line-height: 1.6;
+  flex: 1; /* Flex-grow to take available space */
+  padding: 20px; /* Padding for text block */
+  margin: 80px; /* Large margin which might need adjustment on smaller screens */
+  font-weight: 600; /* Bold text */
+  font-family: Arial, sans-serif; /* Font family */
+  font-size: 18px; /* Base font size */
+  color: #333; /* Text color */
+  line-height: 1.6; /* Line height for readability */
 }
 
 @media (max-width: 768px) {
   .about-container {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Stack children vertically on smaller screens */
+    margin: 30px 20px; /* Reduced margin on smaller screens */
   }
 
   .about-text {
-    margin-left: 0;
-    margin-top: 20px;
-    text-align: center;
+    margin: 20px; /* Uniform margin for simplicity and consistency */
+    text-align: center; /* Center text for better appearance on smaller screens */
   }
 
   .about-image img {
-    width: 100%;
-    max-width: 300px;
+    width: 100%; /* Full width to adapt to container size */
+    max-width: 300px; /* Max-width to prevent overly large images */
   }
 }
