@@ -15,7 +15,7 @@ export const Footer = () => {
 </h2>
 
 
-            <p className="fw-bold">Delivering Education at DoorStep</p>
+            <p className="fw-bold">Delivering Education at the DoorStep</p>
           </div>
           <div className="col col-span-2 border-start p-4">
             <div>
@@ -76,7 +76,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col items-center container-fluid text-center py-1" style={{ background: "#C6F6D5" }}>
-        <p>Copyright © {currentYear} Learning Huts Foundation. All Rights Reserved.</p>
+        <p>Copyright © {currentYear} The Learning Huts Foundation. All Rights Reserved.</p>
       </div>
     </footer>
   );

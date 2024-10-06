@@ -18,14 +18,14 @@ export const HeroSection = () => {
         />
 
         <div className="position-absolute top-50 start-50 translate-middle mx-auto">
-          <h1 className="h1 text-6xl text-center fw-bold text-warning">Learning Huts</h1>
+          <h1 className="h1 text-6xl text-center fw-bold text-warning">The Learning Huts</h1>
           <h2 className="h2 fw-bold py-3 text-center text-white">
-            Educating for the better world
+            Delivering Education at the doorstep
           </h2>
 
           <p className="text-center text-white">
             We Seek out world changers and difference makers around the
-            globe,and equip them to fulfill their unique purpose.
+            globe,to create a better tomorrow together
           </p>
 
           <div className="text-center mt-4">
